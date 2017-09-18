@@ -9,6 +9,8 @@ Repo for WWCode Chatbot Workshop on 9/21
 3. Find your favorite SDK [here](https://api.ai/docs/sdks).
     * I'll be using the NodeJS SDK -- but if you prefer another language, pick whichever you feel comfortable with!
     * Instructions for NodeJS SDK are found [here](https://www.npmjs.com/package/apiai)
+4. If using Node:
+    * npm install express
     
 ## Outline for Workshop
 
