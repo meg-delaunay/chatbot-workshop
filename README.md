@@ -16,9 +16,9 @@ Repo for WWCode Chatbot Workshop on 9/21
 
 1. Introduction to Api.ai and Chatbot Vocabulary
 2. Creating our first Api.ai agent (topic of agent TBD)
-    * Adding our first intent!
+    * Adding our first Intent!
 3. Hooking our agent up to NodeJS
-4. Adding Responses
-5. What's an Entity?  
-6. Integrations with Web, Slack, etc (if time permits!)
+4. What's an Entity?  
+5. Generating responses based on business logic. 
+6. Fulfillment using GCloud project webhook (unlikely to get here -- but will show the necessary steps to anyone who's interested!)
 
