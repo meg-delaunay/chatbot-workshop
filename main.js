@@ -1,14 +1,18 @@
 var apiai = require('apiai');
 
-var app = apiai("d06bd030cc284156b8f2fdf1bcf262c5");
+
+var options = {
+    secure: false,
+    sessionId: 'convo-id'
+}
+
+var app = apiai("6f3707fd712e443eb20c8eb33a798e0a", options);
 
 console.log('creating the app is done');
 
 var query = process.argv[2]
 
-var request = app.textRequest(query, {
-    sessionId: 'conversation-1'
-});
+var request = app.textRequest(query, options);
 
 request.on('response', function(response) {
     console.log('Intent: ' + response.result.metadata.intentName);
